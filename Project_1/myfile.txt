@@ -1,0 +1,29 @@
+#Creating Github Repository, new Directory, and .txt file
+Reubenperez$ git clone https://github.com/reubenp92/Computational-Social-Science-Projects.git
+Cloning into 'Computational-Social-Science-Projects'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+(base) MacBook-Pro-7:computational-social-science-training-program-master Reubenperez$ ls
+Computational-Social-Science		Reproducible Data Science
+Computational-Social-Science-Projects	Supervised Machine Learning
+Fundamentals for Machine Learning	data
+Latinidad-is-canceled			gitignore.txt
+Natural Language Processing		hello.py
+README.md				images
+(base) MacBook-Pro-7:computational-social-science-training-program-master Reubenperez$ cd Computational-Social-Science-Projects
+(base) MacBook-Pro-7:Computational-Social-Science-Projects Reubenperez$ mkdir Project 1
+(base) MacBook-Pro-7:Computational-Social-Science-Projects Reubenperez$ rm-r 1
+-bash: rm-r: command not found
+(base) MacBook-Pro-7:Computational-Social-Science-Projects Reubenperez$ rm -r 1
+(base) MacBook-Pro-7:Computational-Social-Science-Projects Reubenperez$ rm -r project
+(base) MacBook-Pro-7:Computational-Social-Science-Projects Reubenperez$ mkdir Project-1
+(base) MacBook-Pro-7:Computational-Social-Science-Projects Reubenperez$ rm -r Project-1
+(base) MacBook-Pro-7:Computational-Social-Science-Projects Reubenperez$ mkdir Project_1
+(base) MacBook-Pro-7:Computational-Social-Science-Projects Reubenperez$ cd Project_1
+(base) MacBook-Pro-7:Project_1 Reubenperez$ git add .txt
+fatal: pathspec '.txt' did not match any files
+(base) MacBook-Pro-7:Project_1 Reubenperez$ git add test.txt
+fatal: pathspec 'test.txt' did not match any files
+(base) MacBook-Pro-7:Project_1 Reubenperez$ vim myfile.txt
